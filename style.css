@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+  }
+  .searchBar{
+    display:flext;
+    padding: 20px;
+      background-color:black;
+  }
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+  .navigation {
+    background-color: #232F3E;
+    display: flex;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .mainPage{
+    padding-top: 20px;
+    padding-left: 150px;
+    text-align: left;
+  height:250px;
+  /* background-color: #fa671d; */
+    background-color: #12cbef;
+  }
+  .main{
+    float: left;
+    padding:5px;
+    width:200px;
+  }
+  .maincent{
+    float: left;
+    padding:1px;
+    width:80px;
+  }
+  footer {
+    text-align: center;
+    height:210px;
+    background-color: #12cbef;
+    /* background-color:  rgba(66, 111, 148, 0.91); */
+  }
+  .pic{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 220px; 
+    background-color: white;
+  
+    border: solid 10px #12cbef;
+  }
+  .pics{
+    float: left;
+    width: 20%;
+    height: 80px; 
+    padding: 10px;
+    background-color: white;
+    border: solid 10px #12cbef;
+  }
+  .photo{
+    text-align: center;
+    float: left;
+    width: 20%;
+    height: 115px; 
+    padding-left: 20px;
+    padding-right: 1px;
+    background-color: white;
+    border: solid 10px #12cbef;
+  }
+  .sign{
+    background-color: rgb(229, 202, 26);
+    width:170px;
+    height:20px;
+    border: none;
+    border-radius: 20%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 5px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .image-home {
+    width: 50px;
+  }
+  
+  .image-home img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
