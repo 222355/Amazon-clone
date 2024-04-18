@@ -3,7 +3,7 @@
     padding: 0;
   }
   .searchBar{
-    display:flex;   /* flex property makes this container a flex container.*/
+    display:flex;   
     padding: 20px;
       background-color:black;
   }
@@ -14,7 +14,7 @@
   .navigation {
     background-color: #232F3E;
     display: flex;
-  flex-wrap: wrap; /* Allow navigation items to wrap to the next line */
+  flex-wrap: wrap;
   }
   ul {
     list-style-type: none;
@@ -42,14 +42,14 @@
 /* Media query for tablets and larger devices */
 @media only screen and (max-width: 1024px) {
   .mainPage {
-    padding-left: 50px; /* Adjust padding for smaller screens */
+    padding-left: 50px; 
   }
 }
 
 /* Media query for smaller devices like phones */
 @media only screen and (max-width: 600px) {
   .mainPage {
-    padding-left: 20px; /* Further adjust padding for even smaller screens */
+    padding-left: 20px; 
   }
 }
 
@@ -90,7 +90,7 @@
   /* Add media query for responsiveness */
 @media only screen and (min-width: 768px) {
   .pic{
-    margin-right: 10px; /* Adjust margin for larger screens */
+    margin-right: 10px;
   }
 }
 #last{
